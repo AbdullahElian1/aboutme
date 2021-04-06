@@ -1,7 +1,10 @@
 'use strict';
+
+let score=0;
 let userName = prompt("Enter Your Name");
 console.log(userName);
 alert("welcome "+ userName +" to my website");
+
 
 
 let firstQuastion = prompt("does the page owner name Abdullah answer yes/no");
@@ -10,6 +13,7 @@ switch(firstQuastion.toLowerCase()){
     case 'yes' :
     case 'y':
         alert("you are correct");
+        score++;
         break;
     case 'no':
     case 'n' :
@@ -30,6 +34,7 @@ switch(secondQuastion.toLowerCase()){
     case 'no':
     case 'n' :
         alert("you are correct it's 22 ");
+        score++;
         break;
     default :
     alert("please enter yes or no ");    
@@ -47,6 +52,7 @@ switch(thirdQuastion.toLowerCase()){
     case 'no':
     case 'n' :
         alert(" you are correct it's from  the University of Jordan ");
+        score++;
         break;
     default :
     alert("please enter yes or no ");    
@@ -59,6 +65,7 @@ switch(fourthQuastion.toLowerCase()){
     case 'yes' :
     case 'y':
         alert("you are correct");
+        score++;
         break;
     case 'no':
     case 'n' :
@@ -75,6 +82,7 @@ switch(fifthQuastion.toLowerCase()){
     case 'yes' :
     case 'y':
         alert("you are correct");
+        score++;
         break;
     case 'no':
     case 'n' :
@@ -86,5 +94,89 @@ switch(fifthQuastion.toLowerCase()){
 }
 
 
+
+
+
+
+
+let sixQuastion = prompt("you have four attempts  to guess a number ");
+sixQuastion=parseInt(sixQuastion);
+
+for(let i=0;i<=3;i++){
+    if(sixQuastion ===75){
+        alert("Bravoo your correct");
+        score++;
+        break;
+        
+    }else if(sixQuastion>=0 && sixQuastion<65){
+        alert("too low");
+    }else if (sixQuastion>=90 && sixQuastion<=120){
+        alert("too high ");
+
+    }else if(sixQuastion>=65 && sixQuastion<=80) {
+        alert(" You're close ");
+    }else{
+        alert("please enter number btween 1-100 ");
+    }
+
+
+
+
+        if(i===3)
+        {
+            alert("the correct number is 75 ");
+            break;
+        }
+        sixQuastion = prompt("you have four attempts  to guess a number ");
+        sixQuastion=parseInt(sixQuastion)
+    }
+
+let favcolor=['black','white','pink','blue','yellow','red','orange'];
+
+let sevenQuastion = prompt(" what do you think my favorite color you have six attempts ");
+let x=true;
+for(let i=0;i<=5;i++){
+    
+    
+    for(let j=0; j<favcolor.length;j++){
+        if(favcolor[j]===sevenQuastion){
+            alert("Bravoo you are correct");
+            score++;
+            x=false;
+           
+        }
+       
+    }
+
+    if(!x){
+        break;
+    }
+
+    sevenQuastion = prompt(" what do you think my favorite color you have six attempts ");
+    
+}
+
+
+
+
+alert("your score is" + score + " from 7");
+
+
 document.write("thank you "+ userName +" for visited my website ");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
