@@ -101,6 +101,7 @@ switch(fifthQuastion.toLowerCase()){
 
 let sixQuastion = prompt("you have four attempts  to guess a number ");
 sixQuastion=parseInt(sixQuastion);
+console.log(sixQuastion);
 
 for(let i=0;i<=3;i++){
     if(sixQuastion ===75){
@@ -132,10 +133,12 @@ for(let i=0;i<=3;i++){
     }
 
 let favcolor=['black','white','pink','blue','yellow','red','orange'];
+console.log(favcolor);
 
 let sevenQuastion = prompt(" what do you think my favorite color you have six attempts ");
+console.log(sevenQuastion);
 let x=true;
-for(let i=0;i<=5;i++){
+for(let i=0;i<=6;i++){
     
     
     for(let j=0; j<favcolor.length;j++){
@@ -151,6 +154,14 @@ for(let i=0;i<=5;i++){
     if(!x){
         break;
     }
+    if(i===5)
+        {
+            alert("the correct colors " + favcolor);
+            break;
+        }
+        
+    
+
 
     sevenQuastion = prompt(" what do you think my favorite color you have six attempts ");
     
@@ -158,7 +169,7 @@ for(let i=0;i<=5;i++){
 
 
 
-
+console.log(score);
 alert("your score is" + score + " from 7");
 
 
