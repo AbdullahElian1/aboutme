@@ -111,31 +111,40 @@ for(let i=0;i<=3;i++){
         
     }else if(sixQuastion>=0 && sixQuastion<65){
         alert("too low");
+
     }else if (sixQuastion>=90 && sixQuastion<=120){
         alert("too high ");
 
-    }else if(sixQuastion>=65 && sixQuastion<=80) {
+    }else if(sixQuastion>=65 && sixQuastion<=89) {
         alert(" You're close ");
+        
     }else{
         alert("please enter number btween 1-100 ");
+        
     }
 
-
-
-
-        if(i===3)
+    if(i===3)
         {
-            alert("the correct number is 75 ");
+            alert("You have exhausted your attempts so,the correct number is 75 ");
             break;
         }
+
         sixQuastion = prompt("you have four attempts  to guess a number ");
-        sixQuastion=parseInt(sixQuastion)
+        sixQuastion=parseInt(sixQuastion);
+
+
+
+
+        
+        
     }
 
 let favcolor=['black','white','pink','blue','yellow','red','orange'];
 console.log(favcolor);
 
 let sevenQuastion = prompt(" what do you think my favorite color you have six attempts ");
+console.log(sevenQuastion);
+sevenQuastion=sevenQuastion.toLowerCase();
 console.log(sevenQuastion);
 let x=true;
 for(let i=0;i<=6;i++){
