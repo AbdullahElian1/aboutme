@@ -46,6 +46,7 @@ switch(secondQuastion.toLowerCase()){
 age ();
 
 
+function graduate (){
 let thirdQuastion = prompt("Did Abdullah graduate from the Hashemite University? answer yes/no");
 console.log(thirdQuastion);
 switch(thirdQuastion.toLowerCase()){
@@ -62,7 +63,11 @@ switch(thirdQuastion.toLowerCase()){
     alert("please enter yes or no ");    
 
 }
+}
+graduate ();
 
+/*
+function major (){
 let fourthQuastion = prompt("Was his major in the university computer science? answer yes/no");
 console.log(fourthQuastion);
 switch(fourthQuastion.toLowerCase()){
@@ -79,7 +84,11 @@ switch(fourthQuastion.toLowerCase()){
     alert("please enter yes or no ");    
 
 }
+}
+major ();
 
+
+function passion (){
 let fifthQuastion = prompt("Does he have a passion for programming? answer yes/no");
 console.log(fifthQuastion);
 switch(fifthQuastion.toLowerCase()){
@@ -96,14 +105,13 @@ switch(fifthQuastion.toLowerCase()){
     alert("please enter yes or no ");    
 
 }
+}
+passion ();
 
 
 
 
-
-
-
-
+function guess (){
 let sixQuastion ='';
 
 console.log(sixQuastion);
@@ -138,7 +146,11 @@ for(let i=0;i<=3;i++){
 
         
     }
+}
+guess ();
 
+
+function color (){
 let favcolor=['black','white','pink','blue','yellow','red','orange'];
 console.log(favcolor);
 
@@ -175,7 +187,8 @@ for(let i=0;i<=6;i++){
     sevenQuastion = prompt(" what do you think my favorite color you have six attempts ");
     
 }
-
+}
+color ();
 
 
 console.log(score);
@@ -183,7 +196,7 @@ alert("your score is" + score + " from 7");
 
 
 document.write("thank you "+ userName +" for visited my website ");
-
+*/
 
 
 
