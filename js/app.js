@@ -66,7 +66,7 @@ switch(thirdQuastion.toLowerCase()){
 }
 graduate ();
 
-/*
+
 function major (){
 let fourthQuastion = prompt("Was his major in the university computer science? answer yes/no");
 console.log(fourthQuastion);
@@ -87,7 +87,7 @@ switch(fourthQuastion.toLowerCase()){
 }
 major ();
 
-
+/*
 function passion (){
 let fifthQuastion = prompt("Does he have a passion for programming? answer yes/no");
 console.log(fifthQuastion);
