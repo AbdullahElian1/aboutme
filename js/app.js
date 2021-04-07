@@ -149,7 +149,7 @@ for(let i=0;i<=3;i++){
 }
 guess ();
 
-/*
+
 function color (){
 let favcolor=['black','white','pink','blue','yellow','red','orange'];
 console.log(favcolor);
@@ -196,7 +196,7 @@ alert("your score is" + score + " from 7");
 
 
 document.write("thank you "+ userName +" for visited my website ");
-*/
+
 
 
 
