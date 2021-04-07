@@ -10,3 +10,9 @@ done by abdullah elian.
 Links and Resources:
 my github profile
 https://github.com/AbdullahElian1
+
+I was Navigator on: https://github.com/AbdullahElian1/aboutme/pull/1
+
+I was Driver on:  https://github.com/latifaghassan/About-me/pull/1
+
+ 
