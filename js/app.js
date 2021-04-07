@@ -87,7 +87,7 @@ switch(fourthQuastion.toLowerCase()){
 }
 major ();
 
-/*
+
 function passion (){
 let fifthQuastion = prompt("Does he have a passion for programming? answer yes/no");
 console.log(fifthQuastion);
@@ -110,7 +110,7 @@ passion ();
 
 
 
-
+/*
 function guess (){
 let sixQuastion ='';
 
