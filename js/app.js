@@ -6,7 +6,7 @@ console.log(userName);
 alert("welcome "+ userName +" to my website");
 
 
-
+function name () {
 let firstQuastion = prompt("does the page owner name Abdullah answer yes/no");
 console.log(firstQuastion);
 switch(firstQuastion.toLowerCase()){
@@ -21,8 +21,9 @@ switch(firstQuastion.toLowerCase()){
         break;
     default :
     alert("please enter yes or no ");    
-
 }
+}
+ name () ;
 
 let secondQuastion = prompt("Is the age of the page 23 owner? answer yes/no");
 console.log(secondQuastion);
