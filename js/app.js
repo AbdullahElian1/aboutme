@@ -6,7 +6,7 @@ console.log(userName);
 alert("welcome "+ userName +" to my website");
 
 
-
+function name () {
 let firstQuastion = prompt("does the page owner name Abdullah answer yes/no");
 console.log(firstQuastion);
 switch(firstQuastion.toLowerCase()){
@@ -21,9 +21,11 @@ switch(firstQuastion.toLowerCase()){
         break;
     default :
     alert("please enter yes or no ");    
-
 }
+}
+ name () ;
 
+ function age (){
 let secondQuastion = prompt("Is the age of the page 23 owner? answer yes/no");
 console.log(secondQuastion);
 switch(secondQuastion.toLowerCase()){
@@ -40,8 +42,11 @@ switch(secondQuastion.toLowerCase()){
     alert("please enter yes or no ");    
 
 }
+ }
+age ();
 
 
+function graduate (){
 let thirdQuastion = prompt("Did Abdullah graduate from the Hashemite University? answer yes/no");
 console.log(thirdQuastion);
 switch(thirdQuastion.toLowerCase()){
@@ -58,7 +63,11 @@ switch(thirdQuastion.toLowerCase()){
     alert("please enter yes or no ");    
 
 }
+}
+graduate ();
 
+
+function major (){
 let fourthQuastion = prompt("Was his major in the university computer science? answer yes/no");
 console.log(fourthQuastion);
 switch(fourthQuastion.toLowerCase()){
@@ -75,7 +84,11 @@ switch(fourthQuastion.toLowerCase()){
     alert("please enter yes or no ");    
 
 }
+}
+major ();
 
+
+function passion (){
 let fifthQuastion = prompt("Does he have a passion for programming? answer yes/no");
 console.log(fifthQuastion);
 switch(fifthQuastion.toLowerCase()){
@@ -92,13 +105,13 @@ switch(fifthQuastion.toLowerCase()){
     alert("please enter yes or no ");    
 
 }
+}
+passion ();
 
 
 
 
-
-
-
+function guess (){
 let sixQuastion ='';
 
 console.log(sixQuastion);
@@ -133,7 +146,11 @@ for(let i=0;i<=3;i++){
 
         
     }
+}
+guess ();
 
+
+function color (){
 let favcolor=['black','white','pink','blue','yellow','red','orange'];
 console.log(favcolor);
 
@@ -170,7 +187,8 @@ for(let i=0;i<=6;i++){
     sevenQuastion = prompt(" what do you think my favorite color you have six attempts ");
     
 }
-
+}
+color ();
 
 
 console.log(score);
