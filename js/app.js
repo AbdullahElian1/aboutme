@@ -110,7 +110,7 @@ passion ();
 
 
 
-/*
+
 function guess (){
 let sixQuastion ='';
 
@@ -149,7 +149,7 @@ for(let i=0;i<=3;i++){
 }
 guess ();
 
-
+/*
 function color (){
 let favcolor=['black','white','pink','blue','yellow','red','orange'];
 console.log(favcolor);
