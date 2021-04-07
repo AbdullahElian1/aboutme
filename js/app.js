@@ -25,6 +25,7 @@ switch(firstQuastion.toLowerCase()){
 }
  name () ;
 
+ function age (){
 let secondQuastion = prompt("Is the age of the page 23 owner? answer yes/no");
 console.log(secondQuastion);
 switch(secondQuastion.toLowerCase()){
@@ -41,6 +42,8 @@ switch(secondQuastion.toLowerCase()){
     alert("please enter yes or no ");    
 
 }
+ }
+age ();
 
 
 let thirdQuastion = prompt("Did Abdullah graduate from the Hashemite University? answer yes/no");
@@ -93,6 +96,7 @@ switch(fifthQuastion.toLowerCase()){
     alert("please enter yes or no ");    
 
 }
+
 
 
 
