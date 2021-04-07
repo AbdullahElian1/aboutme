@@ -99,11 +99,13 @@ switch(fifthQuastion.toLowerCase()){
 
 
 
-let sixQuastion = prompt("you have four attempts  to guess a number ");
-sixQuastion=parseInt(sixQuastion);
+let sixQuastion ='';
+
 console.log(sixQuastion);
 
 for(let i=0;i<=3;i++){
+    sixQuastion=prompt("you have four attempts  to guess a number ");
+    sixQuastion=parseInt(sixQuastion);
     if(sixQuastion ===75){
         alert("Bravoo your correct");
         score++;
@@ -129,8 +131,7 @@ for(let i=0;i<=3;i++){
             break;
         }
 
-        sixQuastion = prompt("you have four attempts  to guess a number ");
-        sixQuastion=parseInt(sixQuastion);
+        
 
 
 
